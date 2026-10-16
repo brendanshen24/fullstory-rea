@@ -1,0 +1,22 @@
+{
+  "name": "fullstory-asset-uploader",
+  "version": "1.1.2",
+  "description": "Node.js port of FullStory asset uploader",
+  "main": "src/index.js",
+  "bin": {
+    "fullstory-asset-uploader": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "fullstory",
+    "asset-uploader",
+    "session-replay"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
